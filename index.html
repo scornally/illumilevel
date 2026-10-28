@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="IllumiLevel is an illuminated vertical indicator for compound bows, designed to let bowhunters keep their focus on the target instead of a bubble level.">
+  <title>IllumiLevel | Light Up Your Shot</title>
+  <style>
+    :root{--ink:#111;--muted:#626262;--line:#e8e8e8;--green:#18c86f;--soft:#f7f8f7}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+    .wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{border-bottom:1px solid var(--line);background:rgba(255,255,255,.96)}
+    nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand img{display:block;width:min(360px,52vw);height:auto;max-height:64px;object-fit:contain;object-position:left center}
+    .navlinks{display:flex;align-items:center;gap:24px;font-size:.95rem}.navlinks a{color:var(--ink);text-decoration:none}.navlinks a:hover{text-decoration:underline}
+    .hero{padding:72px 0 68px;background:linear-gradient(135deg,#fff 0%,#fff 55%,#f3f6f4 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:68px}
+    .eyebrow{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;color:#147844}
+    h1{font-size:clamp(2.65rem,6vw,5.25rem);letter-spacing:-.055em;line-height:.95;margin:14px 0 24px;max-width:720px}
+    .lead{font-size:1.18rem;color:#414141;max-width:650px;margin:0 0 28px}
+    .price{font-size:2rem;font-weight:800;margin:4px 0 24px}.price small{font-size:.9rem;color:var(--muted);font-weight:400}
+    .btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:7px}.btn:hover{background:#292929}
+    .photo-shell{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 24px 65px rgba(0,0,0,.11)}
+    .photo-shell img{display:block;width:100%;max-height:590px;object-fit:cover;object-position:center;border-radius:12px}
+    .features{padding:72px 0}.section-title{font-size:clamp(1.8rem,4vw,3rem);margin:0 0 14px;letter-spacing:-.035em}.intro{max-width:760px;color:var(--muted);margin:0 0 38px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:14px;padding:28px;background:#fff}.num{color:var(--green);font-size:1.7rem;font-weight:800}.card h3{margin:10px 0 8px;font-size:1.13rem}.card p{margin:0;color:var(--muted)}
+    .cta{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:58px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:32px}.cta h2{margin:0 0 9px;font-size:clamp(1.65rem,4vw,2.6rem);letter-spacing:-.03em}.cta p{margin:0;color:var(--muted)}
+    .email{font-size:1.05rem;font-weight:700;color:var(--ink);text-decoration:none;border-bottom:2px solid var(--green);white-space:nowrap}
+    footer{padding:30px 0;color:#777;font-size:.86rem}.foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+    @media(max-width:800px){nav{min-height:70px}.navlinks a:not(.contact){display:none}.hero{padding:45px 0}.hero-grid{grid-template-columns:1fr;gap:38px}.photo-shell{max-width:570px}.cards{grid-template-columns:1fr}.cta-inner{align-items:flex-start;flex-direction:column}.brand img{width:min(300px,65vw)}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap"><nav>
+      <a class="brand" href="#top" aria-label="IllumiLevel home"><img src="logo.png" alt="IllumiLevel - Lighting up your trophy room"></a>
+      <div class="navlinks"><a href="#about">About</a><a href="#features">Why IllumiLevel?</a><a class="contact" href="mailto:sales@illumilevel.us">Contact</a></div>
+    </nav></div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Illuminated bow level</div>
+          <h1>Keep your eyes on the target.</h1>
+          <p class="lead">IllumiLevel is an illuminated pitch-yaw-roll vertical indicator for compound bows. Instead of shifting your focus to a traditional bubble level, the LED indicator lets you know when your bow is vertical, especially in low-light conditions.</p>
+          <div class="price">$49.99 <small>each</small></div>
+          <a class="btn" href="mailto:sales@illumilevel.us?subject=IllumiLevel%20Purchase%20Inquiry">sales@illumilevel.us</a>
+        </div>
+        <video width="100%" controls><source src='tate.mp4'></video>
+        <div class="photo-shell"><img src="IMG951728.jpg" alt="Black IllumiLevel bow accessory with illuminated green indicator"></div>
+      </div>
+    </section>
+
+    <section class="features" id="about">
+      <div class="wrap">
+        <h2 class="section-title">A simpler way to level your bow</h2>
+        <p class="intro">Designed for bowhunters, IllumiLevel provides a visible LED vertical indication so you can stay focused on your sight pin and target rather than repeatedly refocusing on a dark bubble level.</p>
+        <div class="cards">
+        <article class="card"><div class="num">Our Story:</div><video width="300" controls><source src='Story.mp4' type='video/mp4'></video></article>
+         <article class="card"><div class="num">How to:</div><video width="300" controls><source src='howto.mp4' type='video/mp4'></video></article>
+         <article class="card"><div class="num">Battery Change:</div><video width="300" controls><source src='batt.mp4' type='video/mp4'></video></article>
+        </div>
+<p></p>
+        <div class="cards" id="features">
+          <article class="card"><div class="num">01</div><h3>LED vertical indication</h3><p>A light provides the visual cue for when the bow is vertical.</p></article>
+          <article class="card"><div class="num">02</div><h3>Built for low light</h3><p>The illuminated indicator is designed to remain visible when lighting conditions make a conventional bubble harder to read.</p></article>
+          <article class="card"><div class="num">03</div><h3>Compound-bow mounting</h3><p>IllumiLevel is designed to mount to virtually any compound-bow riser.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap cta-inner">
+        <div><h2>IllumiLevel is $49.99.</h2><p>For purchase inquiries, availability, or product questions, email us.</p></div>
+        <a class="email" href="mailto:sales@illumilevel.us">sales@illumilevel.us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap foot"><span>© IllumiLevel</span><span>Lighting up your trophy room.</span></div></footer>
+</body>
+</html>
